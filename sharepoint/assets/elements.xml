@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Cssinjector"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="613144f1-0067-4a45-aa26-7d77178172de"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

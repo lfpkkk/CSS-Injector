@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://yuns.sharepoint.com/sites/marktest1/SitePages/Test1.aspx",
+      "customActions": {
+        "613144f1-0067-4a45-aa26-7d77178172de": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "cssinjector": {
+      "pageUrl": "https://yuns.sharepoint.com/sites/marktest1/SitePages/Test1.aspx",
+      "customActions": {
+        "613144f1-0067-4a45-aa26-7d77178172de": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
